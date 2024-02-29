@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+
+    <title>Register</title>
+</head>
+<body>
+    <h1 id="divcontainer">
+        Register your account.
+    </h1>
+
+    <div  id="divcontainer">
+        <div style="margin-bottom: 1rem;">
+            <input type="text" placeholder="Username">
+        </div>
+        <div  id="divcontainer">
+            <input type="text" placeholder="Password">
+        </div>
+        <div  id="divcontainer" style="margin-bottom: 1rem; margin-top: 1rem;">
+            <input type="text" placeholder="Confirm Password">
+        </div>
+
+        <a href="./index.html">
+            <button style="color:seagreen" id="btnreg">
+                Register
+            </button>
+        </a>
+    </div>
+    <div  id="divcontainer" style="margin-top: 1rem;"">
+        <a href="./index.html">
+            <button style="color:rgb(215, 33, 33)">
+                Cancel
+            </button>
+        </a>
+            </div>
+    </div>
+</body>
+</html>
+<script>
+    console.log("Hello World");
+
+    let buttonLogin = document.querySelector('#btnreg');
+    buttonLogin.onclick = function () {
+        alert("Registration Successful!")
+    };
+</script>
